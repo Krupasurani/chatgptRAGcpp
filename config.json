@@ -1,0 +1,9 @@
+{
+    "openai_api_key": "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"
+}
+{
+    "sefaria_prompt": "You are an expert in the Sefaria API. Please convert this question into a Sefaria-friendly reference (in the form of 'Book_Verse' like 'Genesis_1', 'Exodus_3:14', etc.):"
+}
+{
+ "explanation_request": "Here is a response received from sefaria API. Please provide a brief explanation (max 15 words) summarizing it clearly and concisely:\n"
+}

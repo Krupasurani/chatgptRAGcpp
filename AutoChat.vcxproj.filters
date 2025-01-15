@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AutoChat_Main.cpp" />
+    <ClCompile Include="AutoChat.cpp" />
+    <ClCompile Include="REST\JSON.cpp" />
+    <ClCompile Include="REST\JSONValue.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Database\GenericDataProvider.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\sqlite3.c">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\CppSQLite3U.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OfficeAutomation.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="AutoChat_Main.h" />
+    <ClInclude Include="AutoChat.h" />
+    <ClInclude Include="REST\JSON.h" />
+    <ClInclude Include="REST\JSONValue.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="Database\GenericDataProvider.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\sqlite3.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\CppSQLite3U.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8.h" />
+    <ClInclude Include="utf8\checked.h" />
+    <ClInclude Include="utf8\core.h" />
+    <ClInclude Include="utf8\cpp11.h" />
+    <ClInclude Include="utf8\cpp17.h" />
+    <ClInclude Include="utf8\unchecked.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="SG_logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Database">
+      <UniqueIdentifier>{7df9c1fa-20c0-4059-944b-71c44395fe5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
